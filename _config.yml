@@ -1,6 +1,6 @@
 # Site settings
 title: Ruby Pixel
-email: michael@nervd.com
+# email: michael@nervd.com
 description: "Blog for ruby, nodejs, docker, javascript, front-end development, and other web technologies."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.rubypx.com" # the base hostname & protocol for your site
