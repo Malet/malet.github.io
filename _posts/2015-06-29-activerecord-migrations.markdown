@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "ActiveRecord and Migrations"
-date:   2015-06-29 23:10:52
-categories: activerecord rails sql
+title: "ActiveRecord and Migrations"
+date: 2015-06-29 23:10:52
+tags: activerecord ruby rails sql
+categories: ruby rails activerecord
 ---
 Migrations in Rails can cause headaches; to avoid headaches, please use SQL
 statements and avoid writing to your models in any way. As soon as you add in
