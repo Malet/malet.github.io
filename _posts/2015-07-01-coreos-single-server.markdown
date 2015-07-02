@@ -4,6 +4,7 @@ title: "CoreOS on a single server"
 date: 2015-07-01 23:57:08
 tags: coreos docker systemd
 categories: docker coreos
+comments: true
 ---
 [CoreOS][coreos] brings some very exciting ideas to the world of Linux, such as
 the very nice auto-update features from ChromeOS; it's also very minimalist,
