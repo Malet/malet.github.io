@@ -15,7 +15,7 @@ Prepared statements allow us to safely insert or update our data, and we can be
 confident that the state of the database will be compatible with the SQL you are
 executing.
 
-{% highlight ruby %}
+{% highlight ruby linenos=table %}
 class DoubleUserBalance < ActiveRecord::Migration
   def up
     # Double user's balance
