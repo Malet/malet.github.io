@@ -25,7 +25,7 @@ touch: cannot touch '/usr/write-test': Read-only file system
 
 For this example we'll be keeping our data in `/home/core/mysql-rubypx`. This
 will survive the dual-partition switch and will be equivalently reliable as
-storing mysql data on any other linux distribution.
+storing MySQL data on any other linux distribution.
 
 ## Creating the unit file
 CoreOS uses [systemd][systemd] for system management. We'll be focusing on
@@ -63,7 +63,7 @@ ever be accessible from inside the server anyway. The container is set to bind
 to `172.17.42.1`, this is the IP of the "docker0" internal interface, and allows
 us to prevent the container exposing an external port on the host.
 
-We'll need to create the directory for mysql to mount as it's data volume, do so
+We'll need to create the directory for MySQL to mount as it's data volume, do so
 with: `mkdir /home/core/mysql-rubypx`.
 
 ## Starting the service
@@ -111,9 +111,9 @@ docker run -it --rm mysql \
     -p<password>'
 {% endhighlight %}
 
-We should also be able to be able to connect to our mysql server manually by
+We should also be able to be able to connect to our MySQL server manually by
 using an ssh tunnel, and then connecting to the "docker0" interface ip. Now that
-we've got our MySQL database set up, we're ready to deploy our application, I'll
+we've got our MySQL database set up, we're ready to deploy our application; I'll
 cover this in my next post!
 
 [coreos-intro]: {% post_url 2015-07-01-coreos-single-server %} "CoreOS on a single server"
