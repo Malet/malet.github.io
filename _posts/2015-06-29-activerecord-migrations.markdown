@@ -6,7 +6,7 @@ tags: activerecord ruby rails sql
 categories: ruby rails activerecord
 comments: true
 ---
-Migrations in Rails can cause headaches; to avoid headaches, please use SQL
+Migrations in Rails can be fragile when using models; to avoid headaches, please use SQL
 statements and avoid writing to your models in any way. As soon as you add in
 something like `User.save`, you're bound to run into issues running migrations
 from scratch later on.
